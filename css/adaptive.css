@@ -1,0 +1,279 @@
+@media (max-width: 1186px) {
+    .insta__item {
+        margin-right: 10px;
+    }
+
+    .review__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .best-right__top {
+        margin-bottom: 10px;
+    }
+
+    .best__photos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .review__stars {
+        margin-right: 5px;
+    }
+
+    .review-content__info {
+        padding: 16px 5px;
+    }
+
+    .review__svg {
+        width: 10px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__account {
+        display: none;
+    }
+
+    .header__mobile {
+        display: block;
+        margin-left: 251px;
+    }
+
+    .header__burger {
+        display: block;
+        margin-right: auto;
+        cursor: pointer;
+    }
+
+    .header__container {
+        display: flex;
+    }
+
+    .header__logo {
+        margin: 0;
+    }
+
+    .best-left__photo {
+        margin-right: 0;
+    }
+
+    .header__mobile {
+        margin-left: 0;
+    }
+
+    .header__burger {
+        margin-right: 0;
+    }
+
+    .header__left {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 999px) {
+    .review__item {
+        min-width: 256px;
+    }
+
+    .review__item:last-child {
+        display: none;
+    }
+
+    .section-review__list {
+        width: auto;
+    }
+
+}
+
+@media (max-width: 651px) {
+    .best-right__top {
+        display: none;
+    }
+
+    .best-right__bottom {
+        flex-direction: column;
+    }
+
+    .best-right__second:nth-child(1) {
+        margin-right: 0;
+    }
+
+    .best-right__second {
+        width: auto;
+    }
+
+    .best-left__photo {
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .best__imgs {
+        height: auto;
+    }
+
+    .review__item:not(:last-child) {
+        margin-right: 9px;
+    }
+
+    .review__item {
+        min-width: 228px;
+    }
+
+    .review__list {
+        flex-direction: column;
+    }
+
+    .swiper {
+        position: relative;
+        height: 746px;
+    }
+
+    .hero-tablet__img {
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .tablet-hero__picture {
+        height: 100%;
+      }
+
+      .swiper-wrapper {
+          position: relative;
+      }
+
+      .swiper-button-prev {
+          left: 41%;
+          bottom: 34px;
+      }
+
+      .swiper-button {
+          top: 97%;
+      }
+
+
+    .swiper-slide {
+        background-image: none;
+    }
+
+    .tablet-hero__picture {
+        display: block;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .best {
+        padding-bottom: 44px;
+    }
+
+    .swiper-button-next {
+        left: 57%;
+    }
+
+    .best-left__photo {
+        width: auto;
+    }
+
+    .insta__item:nth-last-child(-n+7) {
+        display: none;
+    }
+    
+    .insta {
+        padding-bottom: 0;
+    }
+
+    .footer {
+        padding-top: 0;
+    }
+
+    .insta__item {
+        width: 412px;
+    }
+    
+    .insta__item:not(:nth-child(5n)) {
+        margin-right: 0;
+    }
+}
+
+/* menu */
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 50px;
+    padding-left: 20px;
+    padding-top: 22px;
+    background-color: #fff;
+    color: inherit;
+    z-index: 4;
+    height: 400px;
+    box-shadow: 2px 2px 35px rgb(0 0 0 / 40%);
+    transition: all 0.53s ease-in-out;
+    transform: translate(-1001%);
+  }
+
+.mobile-menu.active {
+    /* display: block; */
+    transform: translate(0);
+    z-index: 9999;
+    transition: all .33s ease-in-out;
+  }
+
+  .mobile__nav {
+      padding-left: 0;
+  }
+  
+  .mob__list {
+    display: flex;
+    flex-direction: column;;
+  }
+
+  .mobile__item:not(:last-child) {
+      margin-right: 0;
+  }
+  
+  .mobile__item {
+    margin-right: 0;
+    margin: 0px 0px 20px 0px;
+  }
+  
+
+  .menu__icon {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      margin-bottom: 20px;
+  }
+
+  .menu__icon::before,
+  .menu__icon::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #000;
+      left: 0;
+  }
+
+  .menu__icon::before {
+      top: 6px;
+      transform: rotate(45deg);
+  }
+
+  .menu__icon::after {
+    bottom: 12px;
+    transform: rotate(-45deg);
+}
